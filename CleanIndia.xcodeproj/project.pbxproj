@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8D256E3B21070FD4006D5C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D256E3A21070FD4006D5C7B /* AppDelegate.swift */; };
-		8D256E3D21070FD4006D5C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D256E3C21070FD4006D5C7B /* ViewController.swift */; };
-		8D256E4021070FD4006D5C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D256E3E21070FD4006D5C7B /* Main.storyboard */; };
 		8D256E4321070FD4006D5C7B /* CleanIndia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D256E4121070FD4006D5C7B /* CleanIndia.xcdatamodeld */; };
 		8D256E4521070FD4006D5C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D256E4421070FD4006D5C7B /* Assets.xcassets */; };
-		8D256E4821070FD4006D5C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D256E4621070FD4006D5C7B /* LaunchScreen.storyboard */; };
 		8D256E5321070FD4006D5C7B /* CleanIndiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D256E5221070FD4006D5C7B /* CleanIndiaTests.swift */; };
 		8D256E5E21070FD4006D5C7B /* CleanIndiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D256E5D21070FD4006D5C7B /* CleanIndiaUITests.swift */; };
+		8DD28D21210713F000F1529A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD28D0C210713F000F1529A /* Main.storyboard */; };
+		8DD28D22210713F000F1529A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DD28D0D210713F000F1529A /* GoogleService-Info.plist */; };
+		8DD28D23210713F000F1529A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD28D0E210713F000F1529A /* LaunchScreen.storyboard */; };
+		8DD28D24210713F000F1529A /* AddToiletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D10210713F000F1529A /* AddToiletViewController.swift */; };
+		8DD28D25210713F000F1529A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D11210713F000F1529A /* LoginViewController.swift */; };
+		8DD28D26210713F000F1529A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D12210713F000F1529A /* MapViewController.swift */; };
+		8DD28D27210713F000F1529A /* ToiletListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D13210713F000F1529A /* ToiletListViewController.swift */; };
+		8DD28D28210713F000F1529A /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D16210713F000F1529A /* HttpClient.swift */; };
+		8DD28D29210713F000F1529A /* HttpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D17210713F000F1529A /* HttpConstants.swift */; };
+		8DD28D2A210713F000F1529A /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D18210713F000F1529A /* Toilet.swift */; };
+		8DD28D2B210713F000F1529A /* Toilets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D19210713F000F1529A /* Toilets.swift */; };
+		8DD28D2C210713F000F1529A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D1B210713F000F1529A /* Constants.swift */; };
+		8DD28D2D210713F000F1529A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D1C210713F000F1529A /* Store.swift */; };
+		8DD28D2E210713F000F1529A /* CIAddressTypeahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D1E210713F000F1529A /* CIAddressTypeahead.swift */; };
+		8DD28D2F210713F000F1529A /* CIToiletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD28D1F210713F000F1529A /* CIToiletTableViewCell.swift */; };
+		B737B9D48B18382E89F0A14B /* Pods_CleanIndia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A3865798DD350DDB4D3B95 /* Pods_CleanIndia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A3865798DD350DDB4D3B95 /* Pods_CleanIndia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanIndia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF98B973C1DF7AEA5016290 /* Pods-CleanIndia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanIndia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanIndia/Pods-CleanIndia.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF99A9B7A07027F375D0A86 /* Pods-CleanIndia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanIndia.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanIndia/Pods-CleanIndia.release.xcconfig"; sourceTree = "<group>"; };
 		8D256E3721070FD4006D5C7B /* CleanIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D256E3A21070FD4006D5C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D256E3C21070FD4006D5C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D256E3F21070FD4006D5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D256E4221070FD4006D5C7B /* CleanIndia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanIndia.xcdatamodel; sourceTree = "<group>"; };
 		8D256E4421070FD4006D5C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D256E4721070FD4006D5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D256E4921070FD4006D5C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D256E4E21070FD4006D5C7B /* CleanIndiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanIndiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D256E5221070FD4006D5C7B /* CleanIndiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanIndiaTests.swift; sourceTree = "<group>"; };
@@ -49,6 +62,22 @@
 		8D256E5921070FD4006D5C7B /* CleanIndiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanIndiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D256E5D21070FD4006D5C7B /* CleanIndiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanIndiaUITests.swift; sourceTree = "<group>"; };
 		8D256E5F21070FD4006D5C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD28D0C210713F000F1529A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DD28D0D210713F000F1529A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DD28D0E210713F000F1529A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DD28D10210713F000F1529A /* AddToiletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToiletViewController.swift; sourceTree = "<group>"; };
+		8DD28D11210713F000F1529A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8DD28D12210713F000F1529A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8DD28D13210713F000F1529A /* ToiletListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiletListViewController.swift; sourceTree = "<group>"; };
+		8DD28D16210713F000F1529A /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		8DD28D17210713F000F1529A /* HttpConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpConstants.swift; sourceTree = "<group>"; };
+		8DD28D18210713F000F1529A /* Toilet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
+		8DD28D19210713F000F1529A /* Toilets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toilets.swift; sourceTree = "<group>"; };
+		8DD28D1B210713F000F1529A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DD28D1C210713F000F1529A /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8DD28D1E210713F000F1529A /* CIAddressTypeahead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIAddressTypeahead.swift; sourceTree = "<group>"; };
+		8DD28D1F210713F000F1529A /* CIToiletTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIToiletTableViewCell.swift; sourceTree = "<group>"; };
+		8DD28D20210713F000F1529A /* CleanIndia-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CleanIndia-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B737B9D48B18382E89F0A14B /* Pods_CleanIndia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +113,8 @@
 				8D256E5121070FD4006D5C7B /* CleanIndiaTests */,
 				8D256E5C21070FD4006D5C7B /* CleanIndiaUITests */,
 				8D256E3821070FD4006D5C7B /* Products */,
+				93DC6AB37BD3BC19661F82FD /* Pods */,
+				CBAD530E7DE5CAC47EE79771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +131,16 @@
 		8D256E3921070FD4006D5C7B /* CleanIndia */ = {
 			isa = PBXGroup;
 			children = (
+				8DD28D20210713F000F1529A /* CleanIndia-Bridging-Header.h */,
+				8DD28D0D210713F000F1529A /* GoogleService-Info.plist */,
+				8DD28D0E210713F000F1529A /* LaunchScreen.storyboard */,
+				8DD28D0C210713F000F1529A /* Main.storyboard */,
+				8DD28D14210713F000F1529A /* model */,
+				8DD28D1A210713F000F1529A /* utilities */,
+				8DD28D1D210713F000F1529A /* View */,
+				8DD28D0F210713F000F1529A /* viewcontrollers */,
 				8D256E3A21070FD4006D5C7B /* AppDelegate.swift */,
-				8D256E3C21070FD4006D5C7B /* ViewController.swift */,
-				8D256E3E21070FD4006D5C7B /* Main.storyboard */,
 				8D256E4421070FD4006D5C7B /* Assets.xcassets */,
-				8D256E4621070FD4006D5C7B /* LaunchScreen.storyboard */,
 				8D256E4921070FD4006D5C7B /* Info.plist */,
 				8D256E4121070FD4006D5C7B /* CleanIndia.xcdatamodeld */,
 			);
@@ -128,6 +165,71 @@
 			path = CleanIndiaUITests;
 			sourceTree = "<group>";
 		};
+		8DD28D0F210713F000F1529A /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD28D10210713F000F1529A /* AddToiletViewController.swift */,
+				8DD28D11210713F000F1529A /* LoginViewController.swift */,
+				8DD28D12210713F000F1529A /* MapViewController.swift */,
+				8DD28D13210713F000F1529A /* ToiletListViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		8DD28D14210713F000F1529A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8DD28D15210713F000F1529A /* client */,
+				8DD28D18210713F000F1529A /* Toilet.swift */,
+				8DD28D19210713F000F1529A /* Toilets.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8DD28D15210713F000F1529A /* client */ = {
+			isa = PBXGroup;
+			children = (
+				8DD28D16210713F000F1529A /* HttpClient.swift */,
+				8DD28D17210713F000F1529A /* HttpConstants.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		8DD28D1A210713F000F1529A /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DD28D1B210713F000F1529A /* Constants.swift */,
+				8DD28D1C210713F000F1529A /* Store.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		8DD28D1D210713F000F1529A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DD28D1E210713F000F1529A /* CIAddressTypeahead.swift */,
+				8DD28D1F210713F000F1529A /* CIToiletTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93DC6AB37BD3BC19661F82FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FF98B973C1DF7AEA5016290 /* Pods-CleanIndia.debug.xcconfig */,
+				5BF99A9B7A07027F375D0A86 /* Pods-CleanIndia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBAD530E7DE5CAC47EE79771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A3865798DD350DDB4D3B95 /* Pods_CleanIndia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D256E6221070FD4006D5C7B /* Build configuration list for PBXNativeTarget "CleanIndia" */;
 			buildPhases = (
+				BFA718CE8E21934E2A3B22E7 /* [CP] Check Pods Manifest.lock */,
 				8D256E3321070FD4006D5C7B /* Sources */,
 				8D256E3421070FD4006D5C7B /* Frameworks */,
 				8D256E3521070FD4006D5C7B /* Resources */,
+				2200715AD7AD1590BDBBB8D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D256E4821070FD4006D5C7B /* LaunchScreen.storyboard in Resources */,
 				8D256E4521070FD4006D5C7B /* Assets.xcassets in Resources */,
-				8D256E4021070FD4006D5C7B /* Main.storyboard in Resources */,
+				8DD28D23210713F000F1529A /* LaunchScreen.storyboard in Resources */,
+				8DD28D21210713F000F1529A /* Main.storyboard in Resources */,
+				8DD28D22210713F000F1529A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +362,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2200715AD7AD1590BDBBB8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CleanIndia/Pods-CleanIndia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanIndia/Pods-CleanIndia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA718CE8E21934E2A3B22E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanIndia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D256E3321070FD4006D5C7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D256E3D21070FD4006D5C7B /* ViewController.swift in Sources */,
+				8DD28D2F210713F000F1529A /* CIToiletTableViewCell.swift in Sources */,
+				8DD28D2E210713F000F1529A /* CIAddressTypeahead.swift in Sources */,
+				8DD28D2B210713F000F1529A /* Toilets.swift in Sources */,
+				8DD28D2C210713F000F1529A /* Constants.swift in Sources */,
+				8DD28D25210713F000F1529A /* LoginViewController.swift in Sources */,
+				8DD28D2D210713F000F1529A /* Store.swift in Sources */,
+				8DD28D24210713F000F1529A /* AddToiletViewController.swift in Sources */,
+				8DD28D2A210713F000F1529A /* Toilet.swift in Sources */,
 				8D256E3B21070FD4006D5C7B /* AppDelegate.swift in Sources */,
+				8DD28D29210713F000F1529A /* HttpConstants.swift in Sources */,
+				8DD28D26210713F000F1529A /* MapViewController.swift in Sources */,
+				8DD28D28210713F000F1529A /* HttpClient.swift in Sources */,
 				8D256E4321070FD4006D5C7B /* CleanIndia.xcdatamodeld in Sources */,
+				8DD28D27210713F000F1529A /* ToiletListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +471,6 @@
 			targetProxy = 8D256E5A21070FD4006D5C7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8D256E3E21070FD4006D5C7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D256E3F21070FD4006D5C7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8D256E4621070FD4006D5C7B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D256E4721070FD4006D5C7B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8D256E6021070FD4006D5C7B /* Debug */ = {
@@ -367,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -428,29 +582,35 @@
 		};
 		8D256E6321070FD4006D5C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF98B973C1DF7AEA5016290 /* Pods-CleanIndia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G4668L2TD;
 				INFOPLIST_FILE = CleanIndia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAss.CleanIndia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D256E6421070FD4006D5C7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF99A9B7A07027F375D0A86 /* Pods-CleanIndia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G4668L2TD;
 				INFOPLIST_FILE = CleanIndia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAss.CleanIndia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

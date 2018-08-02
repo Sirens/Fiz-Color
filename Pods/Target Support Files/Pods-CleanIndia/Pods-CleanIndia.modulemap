@@ -1,0 +1,6 @@
+framework module Pods_CleanIndia {
+  umbrella header "Pods-CleanIndia-umbrella.h"
+
+  export *
+  module * { export * }
+}
